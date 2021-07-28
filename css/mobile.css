@@ -1,0 +1,124 @@
+/*pour mobile*/
+@media only screen and (max-width:380px){
+	header{
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+	
+	
+	.navBar{
+		width: 100%;
+	}
+	.sizeLien1{
+		border-top: none;
+        border-bottom: 3px solid #0065fc;  
+	}
+	
+	
+	.sizeLien2:hover{
+		border-top: none;
+		border-bottom: 3px solid #0065fc;
+	}
+    .sizeLien3{
+	margin-right: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	.navBar{
+		margin-left: 100px;
+	}
+	.filterSearch{
+		width: auto;
+		border: none;
+  }
+	.list{
+		flex-wrap: wrap;
+	}
+	.mobileFamilial{
+		position: absolute;
+	}
+	
+	.allBloc{
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.allBloc article:nth-child(1){
+	  order: 1;
+	}
+	.allBloc article:nth-child(2){
+		order: -1;
+	  }
+	  .blocPopulaire {
+		flex: none;
+		width:90%;
+		margin-left: 0;
+		padding: 5%;
+		
+	}
+	.blocHébergement{
+		flex: none;
+		width: 90%;
+		margin-right: 0;
+		margin-top: 30px;
+		padding: 5%;
+		background-color: white;
+		margin-left: 2%;
+		margin-bottom: 1050px;
+	}
+	.cubeHébergement{
+		width: 100%;
+	}	
+	.bloc1{
+		display: flex;
+		flex-direction: column;
+	}
+	.bloc2{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.blocActivités{
+		flex-direction: column;
+		margin-bottom: 1900px;
+	}
+	.activitésImg1{
+		width: 100%;
+		height: 300px;
+		margin-top: 130px;
+	}
+	.activitésImg2{
+		width: 100%;
+		height: 300px;
+	}
+	.activitésImg3{
+		width: 100%;
+		height: 300px;
+	}
+	.activitésImg6{
+		width: 100%;
+		height: 300px;
+	}
+	
+	footer{
+		flex-direction: column;
+		padding-bottom:20px ;
+		width: 100%;
+	}
+	.footer1{
+		padding-left: 30px;
+		width: 100%;
+	}
+	.footer2{
+		padding-left: 30px;
+		width: 100%;
+	}
+	.footer3{
+		padding-left: 30px;
+		width: 100%;
+		padding-right: 0;
+	}
+	
+	
+}
