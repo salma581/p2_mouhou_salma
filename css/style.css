@@ -202,21 +202,18 @@ width: 100%;
 .bloc1{
 	display: flex;
 	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: center;
 	margin-bottom: 10px;
 }
-.bloc2{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 10px;
-}
+
 .cubeHébergement{
 	width: 30%;
 	height: 250px;
+	margin-top: 10px;
 	background-color: white;
 	padding: 1% ;
-	
 	border-radius: 20px;
 }
 .cubeHébergement:hover{

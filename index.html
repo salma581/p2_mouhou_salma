@@ -6,27 +6,25 @@
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <title>Reservia-trouver votre hébergement pour des vacances de réve</title>
 	 <link rel="preconnect" href="https://fonts.gstatic.com">
-	 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap rel=stylesheet">
+	 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 	 <link rel="stylesheet" href="css/style.css" />
 	 <link rel="stylesheet" href="css/tablette.css" />
 	 <link rel="stylesheet" href="css/mobile.css" />
-	  <script src="https://kit.fontawesome.com/1d12b39ef8.js"crossorigin="anonymous"></script>
+	  <script src="https://kit.fontawesome.com/1d12b39ef8.js" crossorigin="anonymous"></script>
  </head>
 
   <body class=" row">
        <!--header-->
 		<header class="headerNav">
 		    
-		   <div> <img id="headerImg"src="images/logo.png" alt="logo de reservia" width="120px" height="50px"/>	</div>
+		   <div> <img id="headerImg" src="images/logo.png" alt="logo de reservia" width="120px" height="50px"/>	</div>
 			
-               
-		
 			<nav>
-				<div class="navBar">
-					<div class="sizeLien1"><a class="colorlien1" href="#hebergement">Hébergements</a></div>
-					<div class="sizeLien2"><a class="colorlien2" href="#activités">Activités</a></div>
-			    </div>
-			       <div class="sizeLien3"><a class="colorlien3" href="#">s'inscrire</a></div>
+				<ul class="navBar">
+					<li class="sizeLien1"><a class="colorlien1" href="#hebergement">Hébergements</a></li>
+					<li class="sizeLien2"><a class="colorlien2" href="#activités">Activités</a></li>
+					<li class="sizeLien3"><a class="colorlien3" href="#">s'inscrire</a></li>
+			    </ul>
 					
 			</nav>			
 		</header>       
@@ -34,37 +32,34 @@
 	  
 	  <!--filter-->
 
-	            <div id="filter">
+	 <div id="filter">
 
-					<h1>Trouver votre hébergement pour des vacances de rêve</h1>
-					<p class="p1"> En plein centre ville ou en pleine nature</p>
+	     <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+	     <p class="p1"> En plein centre ville ou en pleine nature</p>
 
-					<div class="filterSearch">
-                      <div class="iconSize"><i class="fas fa-map-marker-alt"></i></div>
-					  <div><input class="searchBar" type="search" placeholder="Marseille, France"></div>
-					  <div class="search">Recherche</div>
-                   </div>
+		  <div class="filterSearch">
+             <div class="iconSize"><i class="fas fa-map-marker-alt"></i></div>
+		     <div><input class="searchBar" type="search" placeholder="Marseille, France"></div>
+		     <div class="search">Recherche</div>
+          </div>
                    
-                  <div class="list">
-			         <div class="filterTitre filterItem"><h3>Filters</h3></div>
-                     <div class="filterItem">
-					     <div class="filterTextIcon"><i class="fas fa-money-bill-wave filterIcon "></i><div class="text">Economique</div></div>
-					      <div class="filterTextIcon"><i class="fas fa-child filterIcon"></i><div  class="text">Familial</div></div>
-					 </div>
-				      <div class="filterTextIcon"><i class="fas fa-heart filterIcon"></i><div  class="text">Romantique</div></div>
-				      <div class="filterTextIcon"><i class="fas fa-dog filterIcon"></i><div  class="text">Animaux autorisés</div></div>
-			       </div>  
+          <div class="list">
+			 <div class="filterTitre filterItem"><h3>Filters</h3></div>
+             <div class="filterItem">
+				 <div class="filterTextIcon"><i class="fas fa-money-bill-wave filterIcon "></i><div class="text">Economique</div></div>
+			      <div class="filterTextIcon"><i class="fas fa-child filterIcon"></i><div  class="text">Familial</div></div>
+			 </div>
+			   <div class="filterTextIcon"><i class="fas fa-heart filterIcon"></i><div  class="text">Romantique</div></div>
+			   <div class="filterTextIcon"><i class="fas fa-dog filterIcon"></i><div  class="text">Animaux autorisés</div></div>
+		   </div>  
 			          
-				   
-					
+		   <div class="info">
+               <div class="iconInfo"><i class="fas fa-info fa-xs"></i></div>
+                <p> plus de 500 logements sont disponibles dans cette ville.</p>
+		  </div>
+		</div>			
 
-				   <div class="info">
-                       <div class="iconInfo"><i class="fas fa-info fa-xs"></i></div>
-                      <p> plus de 500 logements sont disponibles dans cette ville.</p>
-				  </div>
-			  </div>
-
-					
+				  			
 		<!--section-->
 
         <section id="hebergement" class="allBloc">
@@ -86,7 +81,7 @@
 					    	  <i class="fas fa-star étoileIcon"></i>
 							  <i class="fas fa-star étoileIcon"></i>
 							  <i class="fas fa-star étoileIcon2"></i>
-						?</div>
+						</div>
 					 </div>
 			     </div>
 
@@ -120,10 +115,7 @@
 						 </div> 
 					 </div>         
 				 </div>      
-			   </div>
 			 
-
-              <div class="bloc2">
 			        <div class="cubeHébergement">
 				      <div><img class="sizeImage" src="images/image4.jpg" alt="photo chambre"></div>
 			 	      <div class="cubeDétailHébergement">
@@ -171,8 +163,8 @@
 					  </div>
 				 </div>  
 				 
-				   <div class="afficherPlus"><p>Afficher plus</p></div>
 			  </div>
+			  <div class="afficherPlus"><p>Afficher plus</p></div>
 		 </article>
 		  
 
@@ -244,23 +236,23 @@
 		 
           <div class="blocActivités">
 				<div class="cubeActivités">
-					<div> <img src="images/activité1.jpg" alt="photo parc"class="activitésImg1"></div>
+					<div> <img src="images/activité1.jpg" alt="photo parc" class="activitésImg1"></div>
 					<div class="titre"><h3>Vieux port</h3></div>
 			   </div>
 
 			   <div class="blocActivités2356">
 				  <div class="cubeActivités2356">
-					   <div> <img src="images/activité2.jpg" alt="photo fort"class="activitésImg2"></div>
+					   <div> <img src="images/activité2.jpg" alt="photo fort" class="activitésImg2"></div>
 				       <div class="titre"><h3>Fort de pomégues</h3></div>
 				  </div> 
 
 				  <div class="cubeActivités2356">
-					   <div><img src="images/activité3.jpg" alt="photo ile"class="activitésImg3"></div>
+					   <div><img src="images/activité3.jpg" alt="photo ile" class="activitésImg3"></div>
 				       <div class="titre"><h3>îles de Frioul</h3></div>
 				   </div>
 			  </div>
 			    <div class="cubeActivités">
-				  <div><img src="images/activité4.jpg" alt="photo parc"class="activitésImg1"></div>
+				  <div><img src="images/activité4.jpg" alt="photo parc" class="activitésImg1"></div>
 				  <div class="titre"><h3>Parc National des Calanques</h3></div>
 			 </div>
 
@@ -268,12 +260,12 @@
 
 			  <div class="blocActivités2356">
 				  <div class="cubeActivités2356">
-					 <div><img src="images/activité5.jpg" alt="photo notre dame"class="activitésImg6"></div>
+					 <div><img src="images/activité5.jpg" alt="photo notre dame" class="activitésImg6"></div>
 					 <div class="titre"><h3>Notre-Dame-de-la-Garde</h3></div>
 				  </div> 
 
 				  <div class="cubeActivités2356">
-					 <div><img src="images/activité6.jpg" alt="photo parc"class="activitésImg6"></div>
+					 <div><img src="images/activité6.jpg" alt="photo parc" class="activitésImg6"></div>
 					 <div class="titre"><h3>Parc longchamp</h3></div>
 				 </div>
 			  </div>
