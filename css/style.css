@@ -20,17 +20,16 @@ header{
  
 	
 nav{
-	display: flex;
-	font-size: 18px;
-	justify-content: space-around;
-	align-items: center;
+	font-size: 18px; 
 	width: 45%;
-}
-.navBar{
 	display: flex;
 	justify-content:space-around ;
 	align-items: center;
-	
+}
+.navBar{
+	 display: flex;
+	justify-content:space-around ;
+	align-items: center;
 }
 nav a{
     text-decoration: none;	
@@ -39,18 +38,24 @@ nav a{
 .sizeLien1{	
 border-top: solid 3px #0065fc;
 height:99px;
-margin-left: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-left: 30%; 
 }
 .sizeLien2{
 	height: 99px;
-	margin-left: 50%;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+	margin-left: 30%;
 } 
+.sizeLien3{
+	display: flex;
+    justify-content: space-around;
+    align-items: center; 
+	margin-left: 30%;
+}
 .sizeLien2:hover{
 border-top: solid 3px blue;
 }
@@ -207,7 +212,9 @@ width: 100%;
 	align-items: center;
 	margin-bottom: 10px;
 }
-
+.link {
+	padding-top: 20px;
+}
 .cubeHébergement{
 	width: 30%;
 	height: 250px;
@@ -454,7 +461,7 @@ footer{
 		padding-right: 0;
 		width: 100%;
 	}
-
+     
 }
 
 		
