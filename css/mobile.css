@@ -20,10 +20,9 @@
 		border-bottom: 3px solid #0065fc;
 	}
     .sizeLien3{
-	margin-right: 20px;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 40px;
+	top: 30px;
 	}
 	.navBar{
 		margin-left: 100px;
@@ -86,21 +85,7 @@
 	.activitésImg1{
 		width: 100%;
 		height: 300px;
-		margin-top: 130px;
 	}
-	.activitésImg2{
-		width: 100%;
-		height: 300px;
-	}
-	.activitésImg3{
-		width: 100%;
-		height: 300px;
-	}
-	.activitésImg6{
-		width: 100%;
-		height: 300px;
-	}
-	
 	footer{
 		flex-direction: column;
 		padding-bottom:20px ;

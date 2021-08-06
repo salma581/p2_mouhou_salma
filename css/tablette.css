@@ -21,10 +21,9 @@
 		border-bottom: 3px solid #0065fc;
 	}
 	.sizeLien3{
-	margin-right: 20px;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 40px;
+	top: 30px;
 	}
 .navBar{
 		margin-left: 90px;
@@ -51,7 +50,7 @@
 	flex: none;
 	width:90%;
 	margin-left: 0;
-	/* padding: 5%; */
+	
 }
 .blocHébergement{
 	flex: none;
@@ -79,20 +78,7 @@
 	flex-direction: column;
 	margin-bottom: 1900px;
 }
-.activitésImg1{
-	width: 100%;
-	height: 300px;
-	margin-top: 130px;
-}
-.activitésImg2{
-	width: 100%;
-	height: 300px;
-}
-.activitésImg3{
-	width: 100%;
-	height: 300px;
-}
-.activitésImg6{
+.activitésImg{
 	width: 100%;
 	height: 300px;
 }
@@ -124,10 +110,9 @@ footer{
 	}
 	
 	.sizeLien3{
-	margin-right: 20px;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 40px;
+	top: 30px;
 	}
 	.navBar{
 		width: 100%;
@@ -190,20 +175,7 @@ footer{
 		flex-direction: column;
 		margin-bottom: 1900px;
 	}
-	.activitésImg1{
-		width: 100%;
-		height: 300px;
-		margin-top: 130px;
-	}
-	.activitésImg2{
-		width: 100%;
-		height: 300px;
-	}
-	.activitésImg3{
-		width: 100%;
-		height: 300px;
-	}
-	.activitésImg6{
+	.activitésImg{
 		width: 100%;
 		height: 300px;
 	}
