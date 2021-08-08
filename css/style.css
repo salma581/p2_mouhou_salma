@@ -1,7 +1,6 @@
 /***** header *****/
 body{
 	font-family:Raleway;
-	
 }
 
 header{
@@ -16,20 +15,18 @@ header{
 	justify-content: center;
 	align-items: center;
 }
-
- 
 	
 nav{
 	font-size: 18px; 
 	width: 45%;
 	display: flex;
 	justify-content:space-around ;
-	align-items: center;
 }
 .navBar{
 	 display: flex;
 	justify-content:space-around ;
 	align-items: center;
+	
 }
 nav a{
     text-decoration: none;	
@@ -37,23 +34,14 @@ nav a{
 
 .sizeLien1{	
 border-top: solid 3px #0065fc;
-height:99px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 30%; 
-}
+padding-top: 30px;
+} 
 .sizeLien2{
-	height: 99px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
+	padding-top: 30px;
 	margin-left: 30%;
 } 
 .sizeLien3{
-	display: flex;
-    justify-content: space-around;
-    align-items: center; 
+	padding-top: 30px;
 	margin-left: 30%;
 }
 .sizeLien2:hover{
@@ -76,6 +64,7 @@ color: #0065fc;
 
 
 /*****  filter  *****/
+
 .filterSearch{
 	display: flex;
 	justify-content: center;
@@ -157,8 +146,8 @@ color: #0065fc;
 	height: 25px;
 	padding: 10px;
 	padding-top: 20px;
-	color:rgb(98, 98, 233);
-	background-color: #eeecf1;
+	color:#0065fc;
+	background-color: #DEEBFF;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -392,15 +381,13 @@ ul{
 	height: 30px;
 }
 @media (min-width: 800px) and (max-width:1200px) {
+	/* header */
 	header{
 		flex-direction: column;
 		margin-bottom: 100px;
 	}
-	
-	.sizeLien3{
-	position: absolute;
-	right: 40px;
-	top: 30px;
+	nav{
+		width: 100%;
 	}
 	.navBar{
 		width: 100%;
@@ -408,14 +395,31 @@ ul{
 	.sizeLien1{
 		border-top: none;
         border-bottom: 3px solid #0065fc;
+		padding-bottom: 30px;
+		width:50%;
+		text-align: center;
 	}
-	.sizeLien2:hover{
+	.sizeLien2{
+		padding-bottom: 30px;
+		border-bottom:3px solid #f2f2f2; 
+		width:50%;
+		text-align: center;
+	}
+	
+	/* .sizeLien2:hover{
 		border-top: none;
 		border-bottom: 3px solid #0065fc;
+		 */
 	}
+	.sizeLien3{
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	}
+	/* section */
 	.allBloc{
 		flex-direction: column;
-		max-width: 100%;
+		width: 100%;
 	}
 	.allBloc article:nth-child(1){
       order: 1;
@@ -433,6 +437,7 @@ ul{
 		margin-bottom: 2%;
 		padding-bottom: 2%;
 	}
+	/* footer */
 	footer{
 		flex-direction: column;
 		padding-bottom:20px ;

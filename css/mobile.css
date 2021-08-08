@@ -1,31 +1,40 @@
 /*pour mobile*/
 @media only screen and (max-width:380px){
+
 	header{
 		flex-direction: column;
 		margin-bottom: 100px;
 	}
 	
-	
+	nav{
+		width: 100%;
+	}
 	.navBar{
 		width: 100%;
 	}
 	.sizeLien1{
 		border-top: none;
-        border-bottom: 3px solid #0065fc;  
+        border-bottom: 3px solid #0065fc;
+		padding-bottom: 30px;
+		width:50%;
+		text-align: center;
+		margin-left: 0px;
 	}
-	
-	
-	.sizeLien2:hover{
-		border-top: none;
-		border-bottom: 3px solid #0065fc;
+	.sizeLien2{
+		padding-bottom: 30px;
+		border-bottom:3px solid #f2f2f2; 
+		width:50%;
+		text-align: center;
 	}
     .sizeLien3{
 	position: absolute;
 	right: 40px;
-	top: 30px;
+	top: 20px;
 	}
-	.navBar{
-		margin-left: 100px;
+
+	/**filter**/
+	h1{
+		font-size: 20px;
 	}
 	.filterSearch{
 		width: auto;
@@ -33,6 +42,9 @@
   }
 	.list{
 		flex-wrap: wrap;
+	}
+	.marginFilterList{
+		margin-bottom: 10px;
 	}
 	.mobileFamilial{
 		position: absolute;

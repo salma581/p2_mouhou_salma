@@ -1,33 +1,46 @@
 /*pour tablette*/
 
 @media (min-width: 380px) and (max-width:600px) {
+	/* header */
 	header{
 		flex-direction: column;
 		margin-bottom: 100px;
 	}
 	
+	nav{
+		width: 100%;
+	}
 	.navBar{
 		width: 100%;
 	}
 	.sizeLien1{
 		border-top: none;
-        border-bottom: 3px solid #0065fc;  
+        border-bottom: 3px solid #0065fc;
+		padding-bottom: 30px;
+		width:50%;
+		text-align: center;
+		margin-left: 0px;
 	}
-	.sizeLien2{ 
-		padding-left: 0;
-	}  
-	.sizeLien2:hover{
+	.sizeLien2{
+		padding-bottom: 30px;
+		border-bottom:3px solid #f2f2f2; 
+		width:50%;
+		text-align: center;
+		margin-right: 0px;
+	}
+	/* .sizeLien2:hover{
 		border-top: none;
 		border-bottom: 3px solid #0065fc;
-	}
+	} */
 	.sizeLien3{
 	position: absolute;
 	right: 40px;
-	top: 30px;
+	top: 20px;
 	}
-.navBar{
-		margin-left: 90px;
-	}
+/***filter***/
+h1{
+	font-size: 20px;
+}
 .filterSearch{
       width: auto;
 	  border: none;
@@ -35,6 +48,10 @@
 .list{
 	flex-wrap: wrap;
 }
+.marginFilterList{
+	margin-bottom: 10px;
+}
+/***section***/
 .allBloc{
 	flex-direction: column;
 	width: 100%;
@@ -48,19 +65,16 @@
 
 .blocPopulaire {
 	flex: none;
-	width:90%;
-	margin-left: 0;
-	
+	width:99%;
+	margin-left: 0px;
 }
 .blocHébergement{
 	flex: none;
-	width: 90%;
-	margin-right: 0;
+	width: 99%;
 	margin-top: 30px;
-	padding: 5%; 
 	background-color: white;
-	margin-left: 2%;
 	margin-bottom: 1050px;
+	margin-left: 0px;
 }
 .cubeHébergement{
 	width: 100%;
@@ -82,6 +96,7 @@
 	width: 100%;
 	height: 300px;
 }
+/***footer***/
 footer{
 	flex-direction: column;
 	padding-bottom:20px ;
@@ -104,15 +119,15 @@ footer{
 
 }
 @media (min-width: 601px) and (max-width:801px)  {
+	/* header */
 	header{
 		flex-direction: column;
 		margin-bottom: 100px;
 	}
 	
-	.sizeLien3{
-	position: absolute;
-	right: 40px;
-	top: 30px;
+	
+	nav{
+		width: 100%;
 	}
 	.navBar{
 		width: 100%;
@@ -120,21 +135,36 @@ footer{
 	.sizeLien1{
 		border-top: none;
         border-bottom: 3px solid #0065fc;
+		padding-bottom: 30px;
+		width:50%;
+		text-align: center;
+		margin-left: 0px;
 	}
-
-	
-	.sizeLien2:hover{
+	.sizeLien2{
+		padding-bottom: 30px;
+		border-bottom:3px solid #f2f2f2; 
+		width:50%;
+		text-align: center;
+	}
+	/* .sizeLien2:hover{
 		border-top: none;
 		border-bottom: 3px solid #0065fc;
+	} */
+	.sizeLien3{
+	position: absolute;
+	right: 40px;
+	top: 20px;
 	}
-	
 	.list{
 		flex-wrap: wrap;
+	}
+	.marginFilterList{
+		margin-bottom: 10px;
 	}
 	.p1{
 		margin-left: 30px;
 	}
-	
+	/***section***/
     .allBloc{
 		flex-direction: column;
 		max-width: 100%;
@@ -147,15 +177,14 @@ footer{
 	  }
 	.blocPopulaire {
 		flex: none;
-		width:90%;
-		margin-left: 0;
+		width:99%;
+		
 	}
     .blocHébergement{
 		flex: none;
-		width: 90%;
+		width: 98%;
 		margin-right: 0;
 		margin-top: 30px;
-		padding: 5%; 
 		background-color: white;
 		margin-left: 2%;
 		margin-bottom: 1050px;
@@ -179,6 +208,7 @@ footer{
 		width: 100%;
 		height: 300px;
 	}
+	/***footer***/
 	footer{
 		flex-direction: column;
 		padding-bottom:20px ;
