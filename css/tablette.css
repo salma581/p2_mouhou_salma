@@ -1,6 +1,6 @@
 /*pour tablette*/
 
-@media (min-width: 380px) and (max-width:600px) {
+@media (min-width: 381px) and (max-width:600px) {
 	/* header */
 	header{
 		flex-direction: column;
@@ -45,6 +45,10 @@ h1{
 .mobileNone{
 	display: none;
 }
+.desktopNone{
+	display: block;
+	
+}  
 .searchMobile{
 	width: 50px;
 	border-radius: 15px;
@@ -62,6 +66,7 @@ h1{
 .allBloc{
 	flex-direction: column;
 	width: 100%;
+	margin-left: 4%;
 }
 .allBloc article:nth-child(1){
   order: 1;
@@ -90,22 +95,30 @@ h1{
 	display: flex;
 	flex-direction: column;
 }
-.bloc2{
-	display: flex;
-	flex-direction: column;
-}
 /* Activité */
 .blocActivités{
 	flex-direction: column;
-	margin-bottom: 1900px;
-}
-.activitésImg{
-	width: 100%;
-	height: 300px;
-}
-.cubeActivitésMobile{
-	margin-top: 150px;
-}
+	margin-bottom: 1300px;
+	margin-left: 4%;
+	
+ }
+ h2{
+	margin-left: 20px;
+} 
+ .activitésImg{
+	 height: 200px;
+	 width: 100%;
+	 padding-top: 10px;
+ }
+ .mobileCubeActivités{
+	margin-top: 20px;
+	padding-top:10px ;
+	width: 96%;
+ }
+ .blocActivités2356{
+	  width: 96%;
+ }
+
 
 /***footer***/
 footer{
@@ -172,8 +185,12 @@ footer{
 	.mobileNone{
 		display: none;
 	}
+	.desktopNone{
+		display: block;
+		
+	}  
 	.searchMobile{
-		width: 50px;
+		width: 60px;
 		border-radius: 15px;
 	}
 	.searchIconMobile{
@@ -192,6 +209,7 @@ footer{
     .allBloc{
 		flex-direction: column;
 		max-width: 100%;
+		margin-left: 4%;
 	}
 	.allBloc article:nth-child(1){
       order: 1;
@@ -220,22 +238,30 @@ footer{
 		display: flex;
 		flex-direction: column;
 	}
-	.bloc2{
-		display: flex;
-		flex-direction: column;
-	}
+	
 	/* Activité */
 	.blocActivités{
 		flex-direction: column;
-		margin-bottom: 1900px;
-	}
-	.activitésImg{
-		width: 100%;
-		height: 300px;
-	}
-	.cubeActivitésMobile{
-		margin-top: 150px;
-	}
+		margin-bottom: 1300px;
+		margin-left: 4%;
+		
+	 }
+	 h2{
+		margin-left: 20px;
+	} 
+	 .activitésImg{
+		 height: 200px;
+		 width: 100%;
+		 padding-top: 10px;
+	 }
+	 .mobileCubeActivités{
+        margin-top: 20px;
+		padding-top:10px ;
+		width: 96%;
+	 }
+	 .blocActivités2356{
+          width: 96%;
+	 }
 	
 	/***footer***/
 	footer{

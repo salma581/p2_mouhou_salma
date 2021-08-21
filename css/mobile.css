@@ -1,7 +1,6 @@
 /*pour mobile*/
 @media only screen and (max-width:380px){
-
-	header{
+	 header{
 		flex-direction: column;
 		margin-bottom: 100px;
 	}
@@ -28,25 +27,31 @@
 		margin-left: 0%;
 		margin-right: -60px;
 	}
+	.sizeLien2:hover{
+	border-bottom:3px solid #0065fc;
+}
     .sizeLien3{
 	position: absolute;
-	right: 20px;
+	right: 0;
 	top: 20px;
+	}
+	.sizeLien3:hover{
+		border-bottom:3px solid #0065fc;
 	}
 
 	/**filter**/
-	h1{
-		font-size: 20px;
-	}
 	.filterSearch{
-      
 		border: none;
-  }
-  .mobileNone{
+	}
+     .mobileNone{
 	  display: none;
-  }
+     }
+	 .desktopNone{
+		display: block;
+		
+	}  
   .searchMobile{
-	  width: 50px;
+	  width: 45px;
 	  border-radius: 15px;
   }
   .searchIconMobile{
@@ -65,6 +70,7 @@
 	.allBloc{
 		flex-direction: column;
 		width: 100%;
+		margin-left: 4%;
 	}
 	
 	.allBloc article:nth-child(1){
@@ -97,26 +103,30 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.bloc2{
-		display: flex;
-		flex-direction: column;
-	}
-	/* Activité */
-	.blocActivités{
-		flex-direction: column;
-		margin-bottom: 1900px;
-	}
-	.activitésImg1{
-		width: 100%;
-		height: 300px;
-	}
-	.paddingImg{
-		padding-bottom: 200px;
-	}
-	.cubeActivitésMobile{
-		margin-top: 150px;
-	}
 	
+	/* Activité */
+	 .blocActivités{
+		flex-direction: column;
+		margin-bottom: 1300px;
+		margin-left: 4%;
+		
+	 }
+	 h2{
+		margin-left: 20px;
+	} 
+	 .activitésImg{
+		 height: 200px;
+		 width: 100%;
+		 padding-top: 10px;
+	 }
+	 .mobileCubeActivités{
+        margin-top: 20px;
+		padding-top:10px ;
+		width: 96%;
+	 }
+	 .blocActivités2356{
+          width: 96%;
+	 }
 	/* footer */
 	footer{
 		flex-direction: column;
@@ -135,7 +145,7 @@
 		padding-left: 30px;
 		width: 100%;
 		padding-right: 0;
-	}
+	} 
 	
-	
+
 }
