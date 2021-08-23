@@ -66,8 +66,7 @@ h1{
 /***section***/
 .allBloc{
 	flex-direction: column;
-	width: 96%;
-	margin-left: 4%;
+	width: 98%;
 }
 .allBloc article:nth-child(1){
   order: 1;
@@ -210,8 +209,7 @@ footer{
 	/***section***/
     .allBloc{
 		flex-direction: column;
-		max-width: 96%;
-		margin-left: 4%;
+		max-width: 98%;
 	}
 	.allBloc article:nth-child(1){
       order: 1;

@@ -76,8 +76,7 @@
 	/*section 1*/
 	.allBloc{
 		flex-direction: column;
-		width: 96%;
-		margin-left: 4%;
+		width: 98%;
 	}
 	
 	.allBloc article:nth-child(1){
@@ -104,12 +103,8 @@
 		display: flex;
 		flex-direction: column;
 	}
-	 .blocPopulaire {
-		 flex: none; 
+	 .blocPopulaire{
 		 width:92%;  
-		 margin-left: 5px;
-		
-		/* padding: 5%;  */
 	 }	
 	/* Activité */
 	 .blocActivités{
