@@ -30,6 +30,9 @@ nav{
 	align-items: center;
 	
 }
+ul{
+	list-style-type: none;
+}
 nav a{
     text-decoration: none;	
 }
@@ -118,6 +121,7 @@ color: #0065fc;
 	align-items: center;
 	margin-top: 50px;
 	margin-bottom: 40px;
+	/* margin-left: 10px; */
 	
 }
 .filterTitre{
@@ -181,13 +185,13 @@ color: #0065fc;
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 100%;  
+width:100%;  
 }
 /*****Hébergement*****/
 
 .blocHébergement{
 	width: 62%;
-    height: 650px;
+    height: 665px;
     margin-right: 1%; 
 	margin-left: 1%;
     background-color: rgb(238, 231, 231);
@@ -235,22 +239,23 @@ transform: scale(1.015)
 }
 .afficherPlus{
 	font-weight: bold;
+
 }
 
 /*****populaire*****/
 .blocPopulaire{
-    width: 29%;
-    height:650px;
+    width: 26%;
+    height:665px;
     border-radius: 10px;
-    background-color: rgb(231, 224, 224);
-    padding-left: 20px; 
+    background-color: rgb(231, 224, 224); 
+	padding-left: 20px;
 }
 .titreIcon{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
-    padding-right:20px ;
+    padding-right:20px ; 
 
 }
 
@@ -261,8 +266,8 @@ transform: scale(1.015)
 	background-color: white;
 	height: auto;
 	border-radius:20px ;
-	padding: 1% 0% 1% 1%;
-	margin-bottom: 20px;
+	padding: 1% 0% 1% 1%; 
+	margin-bottom: 20px; 
 	width: 97%;
 }
 .blocImg:hover{
@@ -270,19 +275,19 @@ transform: scale(1.015)
 	transform: scale(1.015)
 }
 .détailImg{
-	width: 45%;
+	width: 45%;  
 }
 .Img{
-    padding-left: 5px;
-    height: 160px;
+    height: 160px; 
     border-radius: 15px 0 0 15px;
     object-fit: cover;
     width: 90%;
+
 }
 .cubeDétail{
-	width: 40%;
+	 width: 40%; 
 	padding-left:3%; 
-    padding-right:12%; 
+    padding-right:12%;   
 }
 
 /*****Activités*****/
@@ -296,7 +301,9 @@ transform: scale(1.015)
 	justify-content: space-between;
 	align-items: center;
 	height:600px; 
-	width: 100%;
+	width: 96%;
+	margin-left: 2%;
+
 }
  .activitésImg{
 	border-radius: 15px 15px 0 0;
@@ -357,8 +364,8 @@ h3{
    font-size: 17px;
 } 
 h2{
-	margin-left: 40px;
-} 
+	margin-left: 20px;
+}
 /*****footer*****/
 footer{
 	width: 100%;
@@ -367,20 +374,21 @@ footer{
 	background-color: #f2f2f2;
 
 }
-.footer1{
+ .footer1{
 	padding-left: 30px;
+	width: 100%;
 }
+.footer2{
+	width: 100%;
+} 
 .footer3{
-	padding-right: 500px;
+	width: 100%;
 }
 .footerBloc:hover{
     cursor: pointer;
 }
 .decorationNone{
 	text-decoration: none;
-}	
-ul{
-	list-style-type: none;
 }
 .lienFooter{
 	color: black;
@@ -395,7 +403,7 @@ ul{
 		margin-bottom: 100px;
 	}
 	nav{
-		width: 100%;
+		width: 97%;
 	}
 	.navBar{
 		width: 100%;
@@ -425,7 +433,8 @@ ul{
 	/* section  */
 	 .allBloc{
 		flex-direction: column;
-		width: 100%;
+		width: 96%;
+		margin-left: 20px;
 	}
 	.allBloc article:nth-child(1){
       order: 1;
@@ -438,30 +447,29 @@ ul{
 	}
 	.blocPopulaire {
         width:100%;
-		margin: auto;
 		margin-top: 10px;
 		margin-bottom: 2%;
 		padding-bottom: 2%;
 	} 
 	
 	/*footer*/  
-	 footer{
+	footer{
 		flex-direction: column;
 		padding-bottom:20px ;
-		width: 100%;
+		width: 100%; 
 	}
 	.footer1{
 		padding-left: 30px;
-		width: 100%;
+		width: 90%; 
 	}
 	.footer2{
-		padding-left: 30px;
-		width: 100%;
+		 padding-left: 30px;
+		 width: 90%; 
 	}
 	.footer3{
 		padding-left: 30px;
 		padding-right: 0;
-		width: 100%;
+		width: 90%; 
 	} 
      
 }

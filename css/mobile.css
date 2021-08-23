@@ -6,7 +6,7 @@
 	}
 	
 	nav{
-		width: 100%;
+		width: 92%;
 	}
 	.navBar{
 		width: 100%;
@@ -32,7 +32,7 @@
 }
     .sizeLien3{
 	position: absolute;
-	right: 0;
+	right: 10px;
 	top: 20px;
 	}
 	.sizeLien3:hover{
@@ -42,14 +42,17 @@
 	/**filter**/
 	.filterSearch{
 		border: none;
+		width: 300px;
 	}
      .mobileNone{
 	  display: none;
      }
 	 .desktopNone{
-		display: block;
-		
-	}  
+		display: block;	
+	} 
+	.searchBar{
+		width: 200px;
+	}
   .searchMobile{
 	  width: 45px;
 	  border-radius: 15px;
@@ -57,8 +60,12 @@
   .searchIconMobile{
 	  color: white;
   }
+   .iconSize{
+	  width: 40px;
+   }
 	.list{
 		flex-wrap: wrap;
+		margin-left: 10px;
 	}
 	.marginFilterList{
 		margin-bottom: 10px;
@@ -66,10 +73,10 @@
 	.mobileFamilial{
 		position: absolute;
 	}
-	
+	/*section 1*/
 	.allBloc{
 		flex-direction: column;
-		width: 100%;
+		width: 96%;
 		margin-left: 4%;
 	}
 	
@@ -79,16 +86,10 @@
 	.allBloc article:nth-child(2){
 		order: -1;
 	  }
-	  .blocPopulaire {
-		flex: none;
-		width:90%;
-		margin-left: 0;
-		padding: 5%;
-		
-	}
+	 
 	.blocHébergement{
 		flex: none;
-		width: 90%;
+		width: 88%;
 		margin-right: 0;
 		margin-top: 30px;
 		padding: 5%;
@@ -103,17 +104,21 @@
 		display: flex;
 		flex-direction: column;
 	}
-	
+	 .blocPopulaire {
+		 flex: none; 
+		 width:92%;  
+		 margin-left: 5px;
+		
+		/* padding: 5%;  */
+	 }	
 	/* Activité */
 	 .blocActivités{
 		flex-direction: column;
 		margin-bottom: 1300px;
-		margin-left: 4%;
+		margin-left: 0;
+		margin-right: 2%;
 		
 	 }
-	 h2{
-		margin-left: 20px;
-	} 
 	 .activitésImg{
 		 height: 200px;
 		 width: 100%;
@@ -131,20 +136,20 @@
 	footer{
 		flex-direction: column;
 		padding-bottom:20px ;
-		width: 100%;
+		width: 100%; 
 	}
 	.footer1{
 		padding-left: 30px;
-		width: 100%;
+		width: 90%; 
 	}
 	.footer2{
-		padding-left: 30px;
-		width: 100%;
+		 padding-left: 30px;
+		 width: 90%; 
 	}
 	.footer3{
 		padding-left: 30px;
-		width: 100%;
 		padding-right: 0;
+		width: 90%; 
 	} 
 	
 
